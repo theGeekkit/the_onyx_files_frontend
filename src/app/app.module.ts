@@ -9,6 +9,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MenuComponent } from './menu/menu.component';
+import { LogInComponent } from './log-in/log-in.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 
 
@@ -20,6 +23,7 @@ import { MenuComponent } from './menu/menu.component';
     AppComponent,
     HeaderNavbarComponent,
     MenuComponent,
+    LogInComponent,
 
   ],
   imports: [
@@ -29,6 +33,7 @@ import { MenuComponent } from './menu/menu.component';
     MatToolbarModule,
     MatIconModule,
     MatDialogModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

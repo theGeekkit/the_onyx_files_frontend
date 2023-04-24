@@ -14,8 +14,8 @@ export class HeaderNavbarComponent implements OnInit {
   ngOnInit(): void {
   }
   openMenu() {
-    const dialogRef = this.dialog.open(MenuComponent,{
-      width: '250px'
+    this.dialog.open(MenuComponent,{
+      width: '200px'
     });
   }
 }
