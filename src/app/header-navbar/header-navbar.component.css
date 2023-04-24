@@ -1,0 +1,28 @@
+.mat-toolbar {
+  background-color: rgb(8, 8, 31);
+  color: aliceblue;
+  margin-top: 0px;
+  padding-top: 10px;
+  height: fit-content;
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 45px;
+}
+
+.menu-icon {
+  margin-right: 30px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+div {
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: row;
+  width: fit-content;
+}
