@@ -3,6 +3,12 @@
     <button mat-icon-button class="menu-icon" aria-label="menu icon button" (click)="openMenu()">
       <mat-icon>menu</mat-icon>
     </button>
-    <h1>The Onyx Files</h1>
+    <span>The Onyx Files</span>
+    <form #searchform="ngForm" (ngSubmit)="search(searchform)" >
+      <mat-form-field>
+        <input matInput placeholder="search..." type="text" ngModel name="search">
+        <button mat-button type="submit">Search</button>
+      </mat-form-field>
+    </form>
   </div>
 </mat-toolbar>

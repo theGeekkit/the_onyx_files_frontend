@@ -1,0 +1,9 @@
+body {
+  background-image: url("https://i.postimg.cc/Jzmq3Dkx/pexels-md-jawadur-rahman-3927131.jpg");
+}
+
+#title {
+  font-size: x-large;
+  display: flex;
+  align-content: center;
+}

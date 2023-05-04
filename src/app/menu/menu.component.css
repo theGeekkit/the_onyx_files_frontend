@@ -1,3 +1,7 @@
 li {
   font-size: 18px;
 }
+
+ul {
+  max-width: 20%;
+}

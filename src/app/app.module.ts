@@ -11,6 +11,11 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MenuComponent } from './menu/menu.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
+import { MatInputModule} from '@angular/material/input';
+
 
 
 
@@ -24,6 +29,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     HeaderNavbarComponent,
     MenuComponent,
     LogInComponent,
+    HomeComponent,
 
   ],
   imports: [
@@ -34,6 +40,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatIconModule,
     MatDialogModule,
     MatFormFieldModule,
+    MatInputModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
